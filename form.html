@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="formColor">
+      
+      <div id="input_div">
+              
+      <form action="" method="post" id="Resume_form">
+        <h2>Resume Details</h2>
+        <!-- personal information -->
+         <fieldset class="personal_info">
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <br>
+            <br>
+            <label for="address">Address</label>
+            <input type="text" name="adress" id="address" required>
+            <br>
+            <br>
+            <label for="contact">Contact</label>
+            <input type="text" name="contact" id="contact" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required>
+         </fieldset>
+         <!-- career objective -->
+          <fieldset>
+            <legend>Career Objective</legend>
+            <label for="your objective">Your Objective</label>
+            <textarea name="career objective" id="career_objective" required></textarea>
+          </fieldset>
+          <!-- experience -->
+           <fieldset>
+            <legend>Experience</legend>
+            <label for="experience">Experience</label>
+            <textarea name="experience" id="experience"></textarea>
+           </fieldset>
+           <!-- skills -->
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="skills">Skills</label>
+                <textarea name="skills" id="skills"></textarea>
+            </fieldset>
+            <!--education-->
+            <fieldset>
+                <legend>Education</legend>
+                <label for="education">Education</label>
+                <textarea name="education" id="education"></textarea>
+            </fieldset>
+
+            
+             <button type="submit" id="submit">Generate</button>
+
+      </form>
+     
+     </div>
+      
+     <div id="output_div">
+
+        <h1 id="display_name"></h1>
+        <p id="display_address"></p>
+        <p id="display_contact"></p>
+        <p id="display_email"></p>
+        <hr id="line_one">
+        <h1 id="career_objective">Career Objective</h1>
+        <P id="display_careerP"></P>
+        <hr id="line_two">
+        <h1 id="experience">Experience</h1>
+        <p id="display_experienceP"></p>
+        <hr id="line_three">
+        <h1 id="Skills">Skills</h1>
+        <p id="display_skills"></p>
+        <hr id="line_four">
+        <h1 id="education">Education</h1>
+        <p id="display_educationP"></p>
+
+    <button id="edit_btn">Edit Resume</button>
+    <button id="download_btn">download</button>
+ 
+    
+
+     </div>
+    
+
+    
+       
+     <script type="module" src="script.js"></script>
+    
+</body>
+</html>

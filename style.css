@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    position: relative;
+}
+
+.h1Header{
+    font-size: 50px;
+}
+
+#container{
+    height: 650px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    background-color:#dce6e4 ;
+    margin-left: 5px;
+    padding-top: 150px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.h1description{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.Pdescription{
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 50px;
+    width: 120px;
+    background-color:#37373b ;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius:5px ;
+    box-shadow: 2px 2px 2px 2px rgb(110, 109, 108) ;;
+}
+
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color:#29292d ;
+    color: white;
+    padding-left: 12px;
+    padding-top: 12px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+.h1_footer_description{
+    padding-left: 35%;
+    font-weight: 700;
+}
+
+.p_footer_description{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer_container{
+    padding-top: 10px;
+    margin-left: 150px;
+    justify-content: space-between;
+}
+
+
+
+
+i{
+    padding-left: 0px;
+    font-size: 30px;
+    /* gap: 5px; */
+    position: relative;
+}
+
+.formColor{
+    background-color:cadetblue ;
+}
+
+#Resume_form{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+}
+
+fieldset{
+    width: 85%;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    padding: 30px 10px 10px;
+    border: 8px solid black;
+
+}
+textarea{
+    height: 158px;
+    width: 585px;
+    box-shadow: 10px 10px 10px 10px rgb(37, 36, 38);
+}
+
+legend{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+label{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#name,#address,#contact,#email{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px  rgb(37, 36, 38);
+    
+}
+
+
+h2{
+    margin-left: 30%;
+}
+
+#display_name{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+
+
+
+#display_address,#display_contact,#display_email{
+    font-size: 18px;
+    margin: 5px;
+    font-weight: 800;
+}
+
+#output_div{
+    padding-left: 12px;
+    display: none;
+}
+
+#display_careerP,#display_experienceP,#display_skills,#display_educationP{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#career_objective,#experience,#Skills,#education{
+    font-weight: 900;
+}
+
+.bxl-linkedin{
+    color: blue;
+}
+.bxl-gmail{
+    color: red;
+}
+.bxl-github{
+    color: rgb(72, 9, 219);
+}
+
+/* start media queries */
+
+@media(min-width:270px){
+    #name,#address,#contact,#email{
+        margin-top: 2px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .footer{
+        height: 500px;
+    }
+    i{
+        
+        padding-top: 10px;
+      
+    
+        
+    }
+    .h1Header{
+        font-size: 45px;
+    }
+#container{
+    height: 700px;
+   
+
+   }
+
+   .personal_info{
+    height:400px ;
+   }
+}
+@media(max-width:2000px){
+  i{
+     padding-left:350px ;
+  }
+  
+}
+
+
+
+
+@media(max-width:1130px){
+    i{
+        padding-left:300px ;
+    }
+}
+@media(max-width:990px){
+     i{
+        padding-left: 250px;
+     }
+     
+}
+
+@media(max-width:850px){
+    i{
+        padding-left: 200px;
+    }
+   
+
+}
+
+@media(max-width:750px){
+    i{
+        padding-left:150px ;
+    }
+
+}
+@media(max-width:650px){
+    i{
+        padding-left: 100px;
+    }
+
+    
+
+}
+@media(min-width:515px){
+  .p_footer_description{
+    padding-top: 5px;
+
+}
+.footer{
+    height: 250px;
+}
+
+
+}
+
+
+
+
